@@ -14,7 +14,7 @@ export const SingleHabit = () => {
         {" "}
         <NavLink className="link" to="/">
           {" "}
-          {findhabit?.name}{" "}
+          ⤺ {findhabit?.name}{" "}
         </NavLink>{" "}
       </h1>
 
