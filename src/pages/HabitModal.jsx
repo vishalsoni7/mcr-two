@@ -25,7 +25,7 @@ export const HabitModal = ({ editId }) => {
     } else {
       const newHabitWithId = {
         id: `${Date.now()}`,
-        image: "https://picsum.photos/id/237/380/180",
+        image: "https://picsum.photos/380/180",
         ...input,
       };
       setHabit([...habit, newHabitWithId]);
