@@ -34,6 +34,8 @@ export const HabitModal = ({ editId }) => {
     }
   };
 
+  console.log(habit);
+
   const findHabit = habit.find((h) => h?.id === editId);
 
   const editHabit = () => {
