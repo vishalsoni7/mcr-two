@@ -21,7 +21,7 @@ export const add = () => {
 };
 
 export const deleteT = () => {
-  toast("Fill Inputs!", {
+  toast("Habit deleted!", {
     style: {
       borderRadius: "10px",
       background: "crimson",
